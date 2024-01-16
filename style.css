@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,200;1,500;1,700&display=swap');
+
+body{
+  font-family: 'Mulish', sans-serif;
+}
+.header{
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+.title-logo{
+  display: flex;
+  /* border: 2px red solid; */
+  width: 50%;
+  gap: 20px;
+}
+.title-a a{
+text-decoration: none;
+font-size: 18px;
+font-family: 'Mulish', sans-serif;
+}
+.title-a{
+  /* border: 2px solid blue; */
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav{
+  display: flex;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 36px;
+}
+.title-logo img{
+  width: 10%;
+}
+.orange{
+  color: orangered;
+}
+.nav-section{
+  background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+ background-repeat: no-repeat;
+ width: 90%;
+ margin: 0 auto;
+ height: 60vh;
+  text-align: center; 
+  align-items: center;
+text-align: center; 
+padding: 50px;
+/* background-size: cover; */
+
+ 
+}
+.nav-input{
+  /* width: 90%; */
+ border-radius: 10px;
+background: rgba(255, 255, 255, 0.30);
+padding: 16px;
+/* margin: 0 auto; */
+/* display: flex; */
+
+
+}
+.input-nav{
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  border-style: none;
+  height: 30px;
+  margin-left: 20px;
+
+}
+.nav-explore{
+  color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+}
+.nav-p{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.main-title{
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  nav,
+  .title-a,
+  .nav-input,
+  .main-title{
+    flex-direction: column;
+   
+  }
+  .nav-section{
+    /* width: 400px;
+    padding: 10px;
+    height: 500px; */
+    width:100%;
+    height: 100%;
+    padding: 0;
+    display: block;
+    background-size: cover;
+  
+  
+    
+  }
+  .nav-explore{
+    font-size: 40px;
+  }
+  .nav-p{
+    font-size: 10px;
+  }
+ 
+
+  .title-a{
+    display: none;
+  }
+  .nav-input{
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .input-nav{
+    margin-top: 10px;
+  }
+  .title-logo{
+ justify-content: space-between;
+
+  }
+  /* .header{
+    width: 80%;
+    margin: 0 auto;
+  } */
+  .main-img{
+    width: 100px;
+  }
+  .main-title{
+    /* width: 90%; */
+    max-width: 90%;
+  }
+.explain-img{
+  /* width: 100% */
+}
+.explaination{
+  width: 100%;
+}
+}
