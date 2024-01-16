@@ -430,6 +430,42 @@ font-weight: 300;
   left: 40px;
   right: 20px;
 }
+.indonesia{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  right: 20px;
+}
+.srilanka{
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  right:20px ;
+}
+.northamerica{
+  position: absolute;
+  top: 600px;
+  left: 40px;
+  right:20px ;
+}
+.kashmir{
+  position: absolute;
+  top: 900px;
+  left: 50px;
+  right:20px ;
+}
+.bangladesh{
+  position: absolute;
+  top: 1250px;
+  left: 60px;
+  right:10px ;
+}
+.bandarban{
+  position: absolute;
+  top: 1350px;
+  left: 40px;
+  right:20px ;
+}
 
 #submit-form{
   width: 370px;
