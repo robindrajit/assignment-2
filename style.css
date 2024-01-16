@@ -91,6 +91,7 @@ font-weight: 800;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .explain-h1{
   color: #131318;
@@ -342,7 +343,13 @@ font-weight: 300;
   nav,
   .title-a,
   .nav-input,
-  .main-title{
+  .main-title,
+  .first-row,
+  .second-row,
+  .third-row,
+  .card-flex,
+  .simple-place,
+  .news{
     flex-direction: column;
    
   }
@@ -384,8 +391,9 @@ font-weight: 300;
 
   }
   /* .header{
-    width: 80%;
-    margin: 0 auto;
+    width: 50%;
+    margin: auto 0;
+
   } */
   .main-img{
     width: 100px;
@@ -402,5 +410,50 @@ font-weight: 300;
 }
 .explaination{
   width: 100%;
+}
+.first-row{
+  margin-left: 30px;
+}
+.news-img img{
+  width: 100%;
+}
+.off{
+  width: 100px;
+  padding: 10px;
+}
+.explain-p{
+  width: 200px;
+}
+.maldives{
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  right: 20px;
+}
+
+#submit-form{
+  width: 370px;
+
+}
+.place-image{
+  width: 100%;
+  padding: 0;
+  display: block;
+}
+.explain-image{
+  width: 100%;
+}
+.last-card{
+  width: 70%;
+}
+.news-image{
+  width: 100%;
+}
+.name-form{
+  padding: 20px;
+width: 330px;
+}
+.news{
+  width: 90%;
 }
 }
